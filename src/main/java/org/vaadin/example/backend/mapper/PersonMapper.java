@@ -37,7 +37,7 @@ public class PersonMapper {
         person.setStreetNo(personDTO.getStreetNo());
         person.setPostalCode(personDTO.getPostalCode());
         person.setCity(personDTO.getCity());
-        person.setCountry(person.getCountry());
+        person.setCountry(personDTO.getCountry());
 
         return person;
     }
